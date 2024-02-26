@@ -45,6 +45,6 @@
 
 ## 五、配置酸雨程序
 
-1. 将`short`文件夹放置在`/cygwin/app/`下；
+1. 将`main`分支中的代码下载为文件夹放置在`/cygwin/app/`下；
 2. 将`month.ncl`, `quarter.ncl`, `semi_annual.ncl`, `annual.ncl`中的`file_path`改为待处理文本的绝对路径，例如：`/cygdrive/d/cygwin/app/work/`+文本名；
 3. 编辑定时任务，使用`crontab -e`命令进行编辑，根据需求添加定时任务。
